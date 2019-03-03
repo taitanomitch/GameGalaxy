@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		A275B709200045F500A68252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A275B708200045F500A68252 /* AppDelegate.swift */; };
-		A275B70B200045F500A68252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A275B70A200045F500A68252 /* ViewController.swift */; };
+		A275B70B200045F500A68252 /* GameGalaxyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A275B70A200045F500A68252 /* GameGalaxyViewController.swift */; };
 		A275B70E200045F500A68252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A275B70C200045F500A68252 /* Main.storyboard */; };
 		A275B710200045F500A68252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A275B70F200045F500A68252 /* Assets.xcassets */; };
 		A275B713200045F500A68252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A275B711200045F500A68252 /* LaunchScreen.storyboard */; };
+		A275B71B2001ABA000A68252 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A275B71A2001ABA000A68252 /* Utilities.swift */; };
+		A275B721201FFF6C00A68252 /* BlasterGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A275B720201FFF6C00A68252 /* BlasterGameViewController.swift */; };
+		A28CA6FD20A3DFB400291307 /* GalaxyLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28CA6FC20A3DFB400291307 /* GalaxyLoadingView.xib */; };
+		A28CA6FF20A3E0A500291307 /* GalaxyLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28CA6FE20A3E0A500291307 /* GalaxyLoadingView.swift */; };
+		A28CA70120AA781B00291307 /* SpelunkerGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28CA70020AA781B00291307 /* SpelunkerGameViewController.swift */; };
+		A28CA70320AA7CB900291307 /* CaveTileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28CA70220AA7CB900291307 /* CaveTileView.xib */; };
+		A28CA70520AA7CE300291307 /* CaveTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28CA70420AA7CE300291307 /* CaveTileView.swift */; };
+		A2917B7E2086DA3300812E83 /* MazeGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917B7D2086DA3300812E83 /* MazeGameViewController.swift */; };
+		A2917B872086EF8C00812E83 /* MazeSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917B862086EF8C00812E83 /* MazeSquareView.swift */; };
+		A2917B892086EFA600812E83 /* MazeSquareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2917B882086EFA600812E83 /* MazeSquareView.xib */; };
+		A2CAAB5C202552DE00ED61CA /* SelectionMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CAAB5B202552DE00ED61CA /* SelectionMenuViewController.swift */; };
+		A2CAAB5E202557E100ED61CA /* GalaxyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CAAB5D202557E100ED61CA /* GalaxyNavigationController.swift */; };
+		A2CAAB6020278E9200ED61CA /* TrailBlazerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CAAB5F20278E9200ED61CA /* TrailBlazerViewController.swift */; };
+		A2CAAB6320279C7300ED61CA /* TrailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CAAB6220279C7300ED61CA /* TrailView.swift */; };
+		A2E596A1206B260C0014281F /* AdventureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E596A0206B260C0014281F /* AdventureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A275B705200045F500A68252 /* GameGalaxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameGalaxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A275B708200045F500A68252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A275B70A200045F500A68252 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A275B70A200045F500A68252 /* GameGalaxyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGalaxyViewController.swift; sourceTree = "<group>"; };
 		A275B70D200045F500A68252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A275B70F200045F500A68252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A275B712200045F500A68252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A275B714200045F500A68252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A275B71A2001ABA000A68252 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A275B720201FFF6C00A68252 /* BlasterGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlasterGameViewController.swift; sourceTree = "<group>"; };
+		A28CA6FC20A3DFB400291307 /* GalaxyLoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalaxyLoadingView.xib; sourceTree = "<group>"; };
+		A28CA6FE20A3E0A500291307 /* GalaxyLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyLoadingView.swift; sourceTree = "<group>"; };
+		A28CA70020AA781B00291307 /* SpelunkerGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpelunkerGameViewController.swift; sourceTree = "<group>"; };
+		A28CA70220AA7CB900291307 /* CaveTileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CaveTileView.xib; sourceTree = "<group>"; };
+		A28CA70420AA7CE300291307 /* CaveTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaveTileView.swift; sourceTree = "<group>"; };
+		A2917B7D2086DA3300812E83 /* MazeGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeGameViewController.swift; sourceTree = "<group>"; };
+		A2917B862086EF8C00812E83 /* MazeSquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeSquareView.swift; sourceTree = "<group>"; };
+		A2917B882086EFA600812E83 /* MazeSquareView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MazeSquareView.xib; sourceTree = "<group>"; };
+		A2CAAB5B202552DE00ED61CA /* SelectionMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionMenuViewController.swift; sourceTree = "<group>"; };
+		A2CAAB5D202557E100ED61CA /* GalaxyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyNavigationController.swift; sourceTree = "<group>"; };
+		A2CAAB5F20278E9200ED61CA /* TrailBlazerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailBlazerViewController.swift; sourceTree = "<group>"; };
+		A2CAAB6220279C7300ED61CA /* TrailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailView.swift; sourceTree = "<group>"; };
+		A2E596A0206B260C0014281F /* AdventureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +84,101 @@
 		A275B707200045F500A68252 /* GameGalaxy */ = {
 			isa = PBXGroup;
 			children = (
-				A275B708200045F500A68252 /* AppDelegate.swift */,
-				A275B70A200045F500A68252 /* ViewController.swift */,
-				A275B70C200045F500A68252 /* Main.storyboard */,
-				A275B70F200045F500A68252 /* Assets.xcassets */,
-				A275B711200045F500A68252 /* LaunchScreen.storyboard */,
+				A275B71E2001B53000A68252 /* Storyboard */,
+				A275B71D2001AC8400A68252 /* Utility */,
+				A275B71C2001AC7D00A68252 /* ViewControllers */,
+				A2CAAB6120279C5200ED61CA /* Views */,
+				A275B71F2001B54200A68252 /* Images */,
 				A275B714200045F500A68252 /* Info.plist */,
 			);
 			path = GameGalaxy;
+			sourceTree = "<group>";
+		};
+		A275B71C2001AC7D00A68252 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2E596A4206B26D30014281F /* Navigation Controller */,
+				A2E596A3206B26BE0014281F /* Main Menu ViewController */,
+				A2E596A2206B26A20014281F /* Game ViewControllers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A275B71D2001AC8400A68252 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A275B708200045F500A68252 /* AppDelegate.swift */,
+				A275B71A2001ABA000A68252 /* Utilities.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A275B71E2001B53000A68252 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A275B70C200045F500A68252 /* Main.storyboard */,
+				A275B711200045F500A68252 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A275B71F2001B54200A68252 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A275B70F200045F500A68252 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A2917B812086E6AB00812E83 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				A2917B882086EFA600812E83 /* MazeSquareView.xib */,
+				A28CA6FC20A3DFB400291307 /* GalaxyLoadingView.xib */,
+				A28CA70220AA7CB900291307 /* CaveTileView.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		A2CAAB6120279C5200ED61CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2917B812086E6AB00812E83 /* Xibs */,
+				A2CAAB6220279C7300ED61CA /* TrailView.swift */,
+				A2917B862086EF8C00812E83 /* MazeSquareView.swift */,
+				A28CA6FE20A3E0A500291307 /* GalaxyLoadingView.swift */,
+				A28CA70420AA7CE300291307 /* CaveTileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2E596A2206B26A20014281F /* Game ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A275B720201FFF6C00A68252 /* BlasterGameViewController.swift */,
+				A2CAAB5F20278E9200ED61CA /* TrailBlazerViewController.swift */,
+				A2E596A0206B260C0014281F /* AdventureViewController.swift */,
+				A2917B7D2086DA3300812E83 /* MazeGameViewController.swift */,
+				A28CA70020AA781B00291307 /* SpelunkerGameViewController.swift */,
+			);
+			path = "Game ViewControllers";
+			sourceTree = "<group>";
+		};
+		A2E596A3206B26BE0014281F /* Main Menu ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2CAAB5B202552DE00ED61CA /* SelectionMenuViewController.swift */,
+				A275B70A200045F500A68252 /* GameGalaxyViewController.swift */,
+			);
+			path = "Main Menu ViewController";
+			sourceTree = "<group>";
+		};
+		A2E596A4206B26D30014281F /* Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2CAAB5D202557E100ED61CA /* GalaxyNavigationController.swift */,
+			);
+			path = "Navigation Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28CA6FD20A3DFB400291307 /* GalaxyLoadingView.xib in Resources */,
+				A2917B892086EFA600812E83 /* MazeSquareView.xib in Resources */,
 				A275B713200045F500A68252 /* LaunchScreen.storyboard in Resources */,
+				A28CA70320AA7CB900291307 /* CaveTileView.xib in Resources */,
 				A275B710200045F500A68252 /* Assets.xcassets in Resources */,
 				A275B70E200045F500A68252 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +256,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A275B70B200045F500A68252 /* ViewController.swift in Sources */,
+				A2CAAB5E202557E100ED61CA /* GalaxyNavigationController.swift in Sources */,
+				A28CA70520AA7CE300291307 /* CaveTileView.swift in Sources */,
+				A2917B872086EF8C00812E83 /* MazeSquareView.swift in Sources */,
+				A2CAAB6320279C7300ED61CA /* TrailView.swift in Sources */,
+				A28CA70120AA781B00291307 /* SpelunkerGameViewController.swift in Sources */,
+				A275B721201FFF6C00A68252 /* BlasterGameViewController.swift in Sources */,
+				A2CAAB6020278E9200ED61CA /* TrailBlazerViewController.swift in Sources */,
+				A275B71B2001ABA000A68252 /* Utilities.swift in Sources */,
+				A2917B7E2086DA3300812E83 /* MazeGameViewController.swift in Sources */,
+				A275B70B200045F500A68252 /* GameGalaxyViewController.swift in Sources */,
+				A2CAAB5C202552DE00ED61CA /* SelectionMenuViewController.swift in Sources */,
+				A28CA6FF20A3E0A500291307 /* GalaxyLoadingView.swift in Sources */,
 				A275B709200045F500A68252 /* AppDelegate.swift in Sources */,
+				A2E596A1206B260C0014281F /* AdventureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5KN527WR2;
 				INFOPLIST_FILE = GameGalaxy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mitchelltaitano.GameGalaxy;
@@ -289,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5KN527WR2;
 				INFOPLIST_FILE = GameGalaxy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mitchelltaitano.GameGalaxy;

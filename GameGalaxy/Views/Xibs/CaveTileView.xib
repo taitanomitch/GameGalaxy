@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CaveTileView" customModule="GameGalaxy" customModuleProvider="target">
+            <connections>
+                <outlet property="CeilingView" destination="ceW-br-MVY" id="Vuh-J4-pul"/>
+                <outlet property="ContentView" destination="iN0-l3-epB" id="idL-Mn-gBS"/>
+                <outlet property="FloorView" destination="UjD-Ti-bGK" id="Jby-FO-JUE"/>
+                <outlet property="PathView" destination="0mb-h3-fNX" id="A4d-la-Hbg"/>
+                <outlet property="PathViewCenterYConstraint" destination="SUi-uG-Oh4" id="vCF-Ak-J5B"/>
+                <outlet property="PathViewHeightConstraint" destination="vWw-l4-3mL" id="wyB-Ae-r1g"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oZ4-bR-yKQ" userLabel="HolderView">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="400"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ceW-br-MVY">
+                            <rect key="frame" x="0.0" y="0.0" width="50" height="185"/>
+                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0mb-h3-fNX">
+                            <rect key="frame" x="0.0" y="185" width="50" height="30"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="vWw-l4-3mL"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UjD-Ti-bGK">
+                            <rect key="frame" x="0.0" y="215" width="50" height="185"/>
+                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="ceW-br-MVY" firstAttribute="leading" secondItem="oZ4-bR-yKQ" secondAttribute="leading" id="3ma-vZ-1f6"/>
+                        <constraint firstItem="UjD-Ti-bGK" firstAttribute="leading" secondItem="oZ4-bR-yKQ" secondAttribute="leading" id="CQv-dG-BIe"/>
+                        <constraint firstAttribute="trailing" secondItem="ceW-br-MVY" secondAttribute="trailing" id="DfS-ww-3uy"/>
+                        <constraint firstItem="0mb-h3-fNX" firstAttribute="leading" secondItem="oZ4-bR-yKQ" secondAttribute="leading" id="E4V-cL-foq"/>
+                        <constraint firstAttribute="bottom" secondItem="UjD-Ti-bGK" secondAttribute="bottom" id="K9M-T9-75g"/>
+                        <constraint firstAttribute="trailing" secondItem="0mb-h3-fNX" secondAttribute="trailing" id="OOn-2h-0fz"/>
+                        <constraint firstItem="0mb-h3-fNX" firstAttribute="centerY" secondItem="oZ4-bR-yKQ" secondAttribute="centerY" id="SUi-uG-Oh4"/>
+                        <constraint firstItem="ceW-br-MVY" firstAttribute="top" secondItem="oZ4-bR-yKQ" secondAttribute="top" id="Wnp-ba-k3y"/>
+                        <constraint firstAttribute="trailing" secondItem="UjD-Ti-bGK" secondAttribute="trailing" id="aJs-Ts-bkW"/>
+                        <constraint firstItem="0mb-h3-fNX" firstAttribute="top" secondItem="ceW-br-MVY" secondAttribute="bottom" id="gtP-8n-yd9"/>
+                        <constraint firstItem="UjD-Ti-bGK" firstAttribute="top" secondItem="0mb-h3-fNX" secondAttribute="bottom" id="td4-5e-CXZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="oZ4-bR-yKQ" secondAttribute="trailing" id="1Lq-C8-1tR"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="oZ4-bR-yKQ" secondAttribute="bottom" id="Dgp-Mh-cb1"/>
+                <constraint firstItem="oZ4-bR-yKQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="T9m-C1-3w6"/>
+                <constraint firstItem="oZ4-bR-yKQ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="xuh-78-DKd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>
